@@ -18,28 +18,18 @@
 
 ### Deploy on VPS
 
-- ```sudo apt-get update && sudo apt-get upgrade -y```
-
-- ```sudo apt-get install python3-pip ffmpeg -y```
-
-- ```sudo pip3 install -U pip```
-
-- ```apt install git -y```
-
-- ```git clone https://github.com/erslry/bl```
-
-- ```cd bl```
-
-- Edit Config env
-- ```mv env-yon .env```
-
-- ```nano .env```
-
-- ctl + x save
-- Aktifkan screen supaya tidak mati
-- ``` screen -S bl```
-- jalankan bot
-- ```bash start```
+* `sudo apt-get update && sudo apt-get upgrade -y` Update VPS
+* `sudo apt-get install python3-pip ffmpeg -y` Install Python
+* `sudo pip3 install -U pip` Install pip
+* `apt install git -y` Install git
+* `git clone https://github.com/erslry/bl` clone git
+* `cd bl` Buka folder
+* `mv env-yon .env` ganti nama file
+* `nano .env` Edit file
+* ctl + x save
+* Aktifkan screen supaya tidak mati
+* ` screen -S bl` jalankan screen 
+* `bash start` jalankan bot
 
 
 # DATABASE REQUIRETMENTS CHOOSE ONE :
