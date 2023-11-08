@@ -1,4 +1,4 @@
-deploy hare https://heroku.com/deploy
+
 <h1 align="center">
   <b>Bot Blacklist Gcast</b>
 </h1>
@@ -13,7 +13,9 @@ deploy hare https://heroku.com/deploy
 [![GitHub Stars](https://img.shields.io/github/stars/naya1503/Gcast-Blacklist?&logo=github)](https://github.com/naya1503/Gcast-Blacklist/stargazers)
 ----
 
-
+# 🛡 Installation
+### Deploy on Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 
 
 # DATABASE REQUIRETMENTS CHOOSE ONE :
