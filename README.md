@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <b>Bot Blacklist Gcast</b>
 </h1>
@@ -19,20 +18,28 @@
 
 ### Deploy on VPS
 
-```sudo apt-get update && sudo apt-get upgrade -y```
-```sudo apt-get install python3-pip ffmpeg -y```
-```sudo pip3 install -U pip```
-```apt install git -y```
-```git clone https://github.com/erslry/bl```
-```cd bl```
+- ```sudo apt-get update && sudo apt-get upgrade -y```
+
+- ```sudo apt-get install python3-pip ffmpeg -y```
+
+- ```sudo pip3 install -U pip```
+
+- ```apt install git -y```
+
+- ```git clone https://github.com/erslry/bl```
+
+- ```cd bl```
+
 - Edit Config env
-```mv env-yon .env```
-```nano .env```
+- ```mv env-yon .env```
+
+- ```nano .env```
+
 - ctl + x save
 - Aktifkan screen supaya tidak mati
-``` screen -S bl```
+- ``` screen -S bl```
 - jalankan bot
-```bash start```
+- ```bash start```
 
 
 # DATABASE REQUIRETMENTS CHOOSE ONE :
