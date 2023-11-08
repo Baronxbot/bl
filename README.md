@@ -18,7 +18,6 @@
 
 ### Deploy on VPS
 <details>
-<summary><h3><b>Command</b></h3></summary>
   
 * `sudo apt-get update && sudo apt-get upgrade -y` Update VPS
 * `sudo apt-get install python3-pip ffmpeg -y` Install Python
@@ -32,7 +31,7 @@
 * Aktifkan screen supaya tidak mati
 * ` screen -S bl` jalankan screen 
 * `bash start` jalankan bot
-
+</details>
 
 # DATABASE REQUIRETMENTS CHOOSE ONE :
 - MONGODB
