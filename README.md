@@ -17,7 +17,9 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 
 ### Deploy on VPS
-
+<details>
+<summary><h3><b>Command</b></h3></summary>
+  
 * `sudo apt-get update && sudo apt-get upgrade -y` Update VPS
 * `sudo apt-get install python3-pip ffmpeg -y` Install Python
 * `sudo pip3 install -U pip` Install pip
