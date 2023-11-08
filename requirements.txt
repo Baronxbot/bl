@@ -1,0 +1,8 @@
+telethon
+hiredis
+redis
+motor
+python-dotenv
+pykeyboard
+tgcrypto
+asyncio

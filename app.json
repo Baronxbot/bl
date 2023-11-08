@@ -1,0 +1,63 @@
+{
+    "name": "Anu?",
+    "description": "bl chat.",
+    "logo": "https://graph.org/file/60408fea8439e6702674d.jpg",
+    "keywords": [
+        "chat",
+        "bl"
+    ],
+    "repository": "https://github.com/erslry/bl",
+    "success_url": "https://t.me/Yeonhw",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Au ya cek my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Au ya cek my.telegram.org",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "token bot",
+            "value": ""
+        },
+        "LOG_BOT": {
+            "description": "-100xxxxxxxx",
+            "value": ""
+        },
+        "MONGO": {
+            "description": "database monggodb.",
+            "required": true
+        },
+        "REDIS": {
+            "description": "redis url",
+            "value": "",
+            "required": true
+        },
+        "REDIS_PW": {
+            "description": "redis password",
+            "value": "",
+            "required": true
+        },
+       "OWNER_ID": {
+            "description": "id owner",
+            "value": "",
+            "required": true
+        }
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
+    }
+}
